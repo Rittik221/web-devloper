@@ -58,6 +58,9 @@ nav li a{
   font-weight: 800px;
   font-size: 45px;
 }
+.text-center{
+  text-align: center;
+}
 /*Shear-Style-Primary*/
 .text-primary{
   color: #FD6E0A;
@@ -95,11 +98,14 @@ main{
   max-width: 1140px;
   margin: 0 auto;
 }
+main section{
+  margin-top: 130px;
+  margin-bottom: 130px;;
+}
 .about{
   border-radius: 10px;
   padding: 135px 150px;
   text-align: center;
-  margin-top: 130px;
 }
 .item-description{
   font-weight: 600;
@@ -108,4 +114,15 @@ main{
 .about-items{
   display: flex;
   justify-content: space-around;
+}
+/*Skill-Section-Style*/
+.skills-container{
+  display: flex;
+  gap: 24px;
+}
+.skill{
+  padding: 33px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
 }
